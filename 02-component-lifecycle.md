@@ -114,13 +114,6 @@ Now, if we pass `this.addFruit` to a child component as an `onChange` callback, 
 
 Again, you _don't_ need a constructor in every React component, but if you need to initialize `state` by `props` or `bind` methods, the constructor is where you do it.
 
-### The `componentWillMount()` Method
-
-This method is called immediately before a component is rendered to the DOM. You generally won't need to use this method. Advanced use-cases like server-rendering are usually the only ones in which `componentWillMount` is needed.
-
-> **Note:** `componentWillMount` shouldn't be used for server requests because it may be invoked multiple times before the render in future versions of React. [Side effects](https://en.wikipedia.org/wiki/Side_effect_(computer_science) should be avoided in the `constructor`, and so server requests shouldn't be made there. The accepted answer on [this Stack Overflow](http://stackoverflow.com/questions/41612200/in-react-js-should-i-make-my-initial-network-request-in-componentwillmount-or-co) from a member of the React team at Facebook gives more detail.
-
-
 ### The `componentDidMount()` and `componentWillUnmount()` Methods
 
 The `componentDidMount` method is called once, immediately after your component is rendered to the DOM. If you want to make an AJAX request when your component first renders, this is where to do it (_not_ in the constructor, or in `componentWillMount`).
