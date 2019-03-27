@@ -11,7 +11,7 @@ You will use the [OpenWeather API](http://openweathermap.org/current) to fetch t
 
 At the end of this exercise, your solution will look something like this:
 
-![Solution for Project](assets/fetchSolution.png)
+![Solution for Project](https://i.imgur.com/KxmnJai.png)
 
 ### Requirements
 
@@ -34,4 +34,4 @@ On your "About" page, ask the user to input a zip code.
 
 - Spend a little time styling the page. Here's some inspiration (Don't worry about the lens flare!)
 
-![alt](assets/weather.png)
+![alt](https://i.imgur.com/EEe8njs.png)
