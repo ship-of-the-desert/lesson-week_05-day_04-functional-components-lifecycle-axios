@@ -20,7 +20,7 @@ Let's look at a search filter as an example. This app will have two basic compon
 
 Our data will be simple - a list of fruits. The app will end up looking something like this:
 
-![Fruit filter app](./assets/filter-example.png)
+![Fruit filter app](https://i.imgur.com/julatKe.png)
 
 When building a React app, it's important to take time to define the app's structure before you start writing code. I'm going to define the **components** and the **state** I need before I write the code.
 
@@ -40,11 +40,11 @@ This app needs to keep track of changes in two items:
 
 I have two sibling components (components at the same level of the tree/app) that need to be aware of each other's data. Specifically, the list component needs to only show the fruits that match the filter value. So I need to get data from one sibling to another. Something like this:
 
-![basic data flow needed](./assets/fruit-filter-data.png)
+![basic data flow needed](https://i.imgur.com/DbmLYix.png)
 
 How to achieve this, though? Using unidrectional data flow, of course! If I create a container component to hold both the filter value and the filtered list, I can hoist the `state` to the container so it's available to all the children. It will then be simple to display the `state` in the child components. The data will flow like this:
 
-![unidirectional approach](./assets/fruit-list-unidirectional.png)
+![unidirectional approach](https://i.imgur.com/XvHrFZM.png)
 
 ### Child components
 
