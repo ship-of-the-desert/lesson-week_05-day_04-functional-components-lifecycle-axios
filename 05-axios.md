@@ -27,7 +27,7 @@ In the past, these have been called **AJAX** requests. As you'll come to learn, 
 
 The browser packages this together using `axios()` and sends it off to a server. The server then listens to your request and provides a **response**. It looks something like this:
 
-![Request/Response](assets/request-response.png)
+![Request/Response](https://i.imgur.com/hmpidR6.png)
 
 When you browse to your favorite websites, your browser is making a request and the server is providing a response. `axios()` allows us to perform the same type of requests over a network. Imagine fetching weather information and rendering it on your website. Perhaps you want to create a real-life Pokedex? You can use `axios()` to build these applications.
 
