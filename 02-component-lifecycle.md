@@ -228,16 +228,6 @@ Use [`window.setTimeout`](https://developer.mozilla.org/en-US/docs/Web/API/Windo
 `window.setTimeout(this.incrementSpeed, 1000)`: The `incrementSpeed` method is [recursive](https://en.wikipedia.org/wiki/Recursion_(computer_science) - it invokes itself as the timeout callback. After one second, `window.setTimeout` will call `this.incrementSpeed` again - the `speed` will go up by one, and a new timer will be set to do it again.
 
 
-### The `componentWillReceiveProps(newProps)` Method
-
-This method is called any time your component receives new `props`. It is _not_ called with the initial `props` when your component initially mounts. If you need to change the state of your component based on changes in the `props`, this is where you do it.
-
-In a simple app, you generally won't need `componentWillReceiveProps`.
-
-### The `shouldComponentUpdate`, `componentWillUpdate`, and `componentDidUpdate` Methods
-
-These methods are called when a component's `props` or `state` change, and are generally used for performance optimizations. React is quite fast by itself, and you usually don't need to concern yourself with these methods outside of a large app with many dynamic components.
-
 ## Summary
 
 React class components have lifecycle methods that are invoked at certain stages of a component's "life" on the DOM. Some of the lifecycle methods you'll use frequently include:
