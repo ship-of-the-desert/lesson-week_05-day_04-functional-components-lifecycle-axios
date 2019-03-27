@@ -175,20 +175,6 @@ const ListItem = props => (
 export default ListItem
 ```
 
-## You Do: Functional Components in the ToDo List
+## You Do: Functional Components in Harry Potter
 
-Make a new file called `ToDoList.js` and have it look very much like the
-`const ListItem` functional component above. It should have the following
-properties:
-
-* Define as `const ToDoList` similar to `ListItem`.
-* Import `ListItem` because it will render `ListItems`.
-* Accept `props` like `ListItem`.
-* Expect there something called `toDoItemArray` attached to props.
-* Use `props.toDoItemArray.map(item, index)` to iterate over each item.
-* Render `<ListItem>` components inside the map.
-* Pass the proper properties (`doThis` and `key`) to the `<ListItem>` component
-
-The syntax of getting the mapping to work can be tricky. Notice that it must
-be surrounded in curly braces, like the fruit list example that uses `.map()`
-to generate a table.
+For practice, we'll refactor the Harry Potter warmup exercise from yesterday. `cd` into the `potter-solution` folder and `npm install`.
