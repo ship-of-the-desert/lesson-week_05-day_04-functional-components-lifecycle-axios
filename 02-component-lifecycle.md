@@ -51,7 +51,7 @@ React components' lifecycle events fall into three broad categories:
 ## Let's examine!
 Let's go through them. Again, you don't need to write these methods - they happen automatically, just like constructors did before we explicitly wrote one. You only have to worry about these if you want to change something in them - but if you do, it's important to understand them!
 
-Here they are in a diagram - ![Lifecycles](./assets/React_Component_Lifecycle.png)
+Here they are in a diagram - ![Lifecycles](https://i.imgur.com/RyR6sAB.png)
 
 ### The `constructor()` Method
 
