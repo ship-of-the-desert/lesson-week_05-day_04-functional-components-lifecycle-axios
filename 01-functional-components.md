@@ -46,7 +46,7 @@ Functional components don't have to be "simple" - they can contain all kinds of 
 
 `FruitTable` will render a table that looks something like this:
 
-![Rendered fruit table](./assets/fruit-table.png)
+![Rendered fruit table](https://i.imgur.com/VbP2J36.png)
 
 
 This component written as a class, as we're used to, would look like this:
